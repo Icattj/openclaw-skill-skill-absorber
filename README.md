@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: skill-absorber
 description: Analyze any GitHub repo, tool, or AI agent framework and extract its best capabilities into native OpenClaw skills. Use when given a GitHub URL to study, when asked to replicate features from another tool (Hermes, Cursor, Claude Code, Devin, etc.), when asked to "absorb" or "steal" or "extract" capabilities from a project, or when asked to make a skill from an external tool. Also handles pulling skills from Claude's ecosystem or any agent skill marketplace.
@@ -121,3 +125,13 @@ After absorption, report to user:
 ## References
 - See references/capability-types.md for classification taxonomy
 - Follow skill-creator conventions for all generated skills
+
+## Installation
+
+```bash
+cp -r skill-absorber/ ~/.openclaw/workspace/skills/skill-absorber/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
